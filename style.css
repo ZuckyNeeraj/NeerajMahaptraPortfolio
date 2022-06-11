@@ -590,8 +590,12 @@ a {
 .form h1::after {
     content: '';
     display: block;
-    border: 3px solid #e63946;
+    /* border: 3px solid #e63946; */
     width: 100%;
+}
+
+.form h1 {
+    border-bottom: 3px solid #e63946;
 }
 
 .form p {
